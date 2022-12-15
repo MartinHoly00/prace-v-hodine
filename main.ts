@@ -80,7 +80,7 @@ input.onGesture(Gesture.Shake, function () {
     }
 
     if (stranakostky == tip && hodit) {
-        music.playTone(131, music.beat(BeatFraction.Half))
+        music.playTone(800, music.beat(BeatFraction.Half))
     } else {
         music.playTone(131, music.beat(BeatFraction.Half))
     }
